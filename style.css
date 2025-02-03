@@ -1,0 +1,113 @@
+/* Resert Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+/* Wrapper centralizado */
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* === Navegação === */
+.menu-navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.menu-navegacao .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-dropdown button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+#lista-menu {
+    list-style: none;
+    padding: 10px;
+    background: white;
+    position: absolute;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+#lista-menu li {
+    padding: 10px;
+    color: black;
+}
+
+
+.slider {
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;  
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    border: 1px solid red;
+    min-width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: lightblue;
+}
+
+form {
+    display: flex; 
+   flex-direction: column;
+   align-items: center;
+}
+
+form label {
+   margin: 10px 0 5px;
+}
+
+form input, form textarea {
+   width: 80%;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+ button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color:white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+}
